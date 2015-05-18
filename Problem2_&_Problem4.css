@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana;
+}
+#wrapper{
+    margin: 20px;
+}
+div.country{
+    margin: 10px;
+    width: 120px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+div.country:hover{
+    cursor: pointer;
+}

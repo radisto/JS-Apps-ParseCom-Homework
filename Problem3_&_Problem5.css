@@ -1,0 +1,49 @@
+#wrapper{
+    margin: 10px;
+    font-family: Verdana;
+}
+#countryContainer{
+}
+#buttonContainer{
+    margin-left: 20px;
+}
+div.CountryAndTown{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 0 30px 0 30px;
+    background-color: rgb(220, 240, 255);
+    margin: 15px;
+    padding: 20px 15px;
+    height: 150px;
+}
+div.CountryDiv{
+    text-align: center;
+    width: 120px;
+    float: left;
+    height: 100%;
+}
+div.TownDiv{
+    text-align: center;
+    width: 167px;
+    float: right;
+    border-left: 1px solid black;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+span.CountrySpan{
+    font-size: 20px;
+}
+button.editButton{
+    margin: 10px 0;
+}
+input[size='10px'], button.showButton{
+    margin-top: 10px;
+}
+p{
+    margin: 0;
+    font-size: 14px;
+}
+p:first-of-type, button.addTownButton{
+    margin-top: 5px;
+}
